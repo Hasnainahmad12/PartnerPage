@@ -48,14 +48,16 @@ const Navbar = () => {
         <img src={ZIMOB} className='lg:h-10 w-auto h-7' alt="" />
         <h2 className="about__name text-black cursor-pointer">OUR PARTNERSHIP</h2>
       </div>
+
+      <div>
+         <img src={ZIMOZIG} className='lg:h-10 w-auto h-6' alt="" />
+      </div>
+
       {/*List*/}
       <ul
         className={icon ? "menu active" : "menu"}
         onclick={() => seticon(!icon)}
       >
-      <div>
-         <img src={ZIMOZIG} className='h-10 w-auto' alt="" />
-      </div>
 
       <div className="flex items-center justify-evenly  w-96 flag">
           <div className="text-xs uppercase flex flex-col items-end">
@@ -68,8 +70,8 @@ const Navbar = () => {
           </div>
       </div>
 
-      <div className="flex gap-16 mt-2 mr-6">
-      <p className="text-2xl text-white">
+      <div className="flex lg:gap-16 gap-6 mt-2 mr-6">
+          <p className="text-2xl text-white">
             <img src={icons} className='h-5 w-auto' alt="" />
           </p>
           <p className="text-xl text-white">
@@ -77,8 +79,6 @@ const Navbar = () => {
           </p>
       </div>
       </ul>
-
-     
 
     </div>
   );
