@@ -87,4 +87,8 @@
         @apply text-xl font-semibold hover:text-red-500
     }
 
+    .zimoLogo {
+        visibility: hidden;
+    }
+
 }

@@ -49,8 +49,8 @@ const Navbar = () => {
         <h2 className="about__name text-black cursor-pointer">OUR PARTNERSHIP</h2>
       </div>
 
-      <div>
-         <img src={ZIMOZIG} className='lg:h-10 w-auto h-6' alt="" />
+      <div className="zimoLogo">
+         <img src={ZIMOZIG} className='lg:h-10 w-auto md:h-6 h-4' alt="" />
       </div>
 
       {/*List*/}
