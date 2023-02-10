@@ -5,7 +5,7 @@ const PersonalCom = () => {
   return (
     <div className='h-screen w-full personal_image relative flex justify-end'>
         <h1 className='absolute lg:top-[10%] lg:right-[12%] top-[15%] right-[5%] md:top-[10%] md:right-[15%] lg:text-[40px] text-[12px] md:text-[26px] tracking-wider font-lato text-transparent: uppercase text-[#FFFFFF]'>Personalised for You</h1>
-        <p className='absolute lg:top-[25%] lg:right-[10%] md:top-[25%] md:right-[10%] top-[20%] right-[0.1%] lg:leading-7 leading-5 md:leading-6 tracking-wider text-[#FFFFFF] lg:text-[20px] text-[8px] md:text-[15px] font-lato lg:text-transparent: uppercase'>Delivering thousands of personalised alerts <br />
+        <p className='absolute lg:top-[25%] lg:right-[10%] md:top-[25%] md:right-[10%] top-[20%] right-[0.1%] lg:leading-7 leading-5 md:leading-6 text-[#FFFFFF] lg:text-[20px] text-[8px] md:text-[15px] font-lato lg:text-transparent: uppercase'>Delivering thousands of personalised alerts <br />
           everyday, our USERS can be first in line when <br />
           that opportunity of a lifetime is here.</p>
 
