@@ -15,8 +15,8 @@ const Partner = () => {
         <Experiance />
         <OurPartner />
         <WorldWideCom />
-        <World />
         <PersonalCom />
+        <World />
     </>
   )
 }

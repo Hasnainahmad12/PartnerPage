@@ -1,7 +1,8 @@
 import React from 'react'
 import ZIMOB from "../assets/Logos/ZIMOB.png"
-import experiance from "../assets/Images/experiance.png"
+// import experiance from "../assets/Images/experiance.png"
 import groupLogo from "../assets/Logos/logoGroup.png"
+import expoVideo from "../assets/Videos/ZIMO+CIVICA 10229.mp4"
 
 const OurPartner = () => {
   return (
@@ -99,9 +100,8 @@ const OurPartner = () => {
             <p className='text-center text-[13px] font-lato tracking-widest'>PROVEN EXPERTISE</p>
           </div>
           
-          <div className='relative h-auto w-auto'>
-            <p className='absolute lg:text-[44px] text-2xl top-14 left-7 font-lato text-white'>*****ADD VIDEO 10229*****</p>
-            <img src={experiance} className='h-[175px] w-[590px] object-cover' alt='' />
+          <div className='relative h-auto w-auto m-auto'>
+            <video src={expoVideo} className='h-[175px] w-[590px] object-cover' autoPlay loop muted/>
           </div>
 
         </div>

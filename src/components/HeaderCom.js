@@ -10,7 +10,7 @@ const HeaderCom = () => {
         <img src={CIVICA} className='w-auto h-auto' alt='' />
 
         <div className='relative h-auto w-auto text-center mt-12'>
-            <p className='text-[#008999] text-2xl font-lato leading-normal'>30 YESRS OF EXPERIANCE</p>
+            <p className='text-[#008999] text-2xl font-lato leading-normal'>30 YEARS OF EXPERIANCE</p>
             <h1 className='text-[#000000] text-6xl font-lato'>EXPERTISE</h1>
         </div>
 
